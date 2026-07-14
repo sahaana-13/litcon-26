@@ -1,0 +1,50 @@
+.universe-layout {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.universe-hero {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto 4rem auto;
+    padding: 3rem;
+    border-radius: 16px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.universe-hero-title {
+    font-size: 5rem;
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.blue-accent {
+    color: var(--accent-blue);
+}
+
+.red-accent {
+    color: var(--primary-red);
+}
+
+.universe-hero-desc {
+    font-family: var(--font-subheading);
+    font-size: 1.5rem;
+    color: var(--text-muted);
+}
+
+.events-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 2rem 4rem 2rem;
+}

@@ -1,0 +1,112 @@
+.cinema-event-card {
+    background: rgba(10, 10, 10, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.3s ease;
+}
+
+.cinema-event-card:hover {
+    box-shadow: 0 15px 30px rgba(215, 38, 56, 0.2);
+}
+
+.event-poster {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+}
+
+.poster-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(10, 10, 10, 1), transparent);
+}
+
+.card-info {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-white);
+    letter-spacing: 1px;
+}
+
+.card-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.card-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.meta-item {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.meta-item svg {
+    color: var(--primary-red);
+}
+
+.card-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-details {
+    font-size: 0.85rem;
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn-details:hover {
+    color: var(--primary-red);
+}
+
+.btn-register {
+    padding: clamp(0.6rem, 2vw, 0.9rem) clamp(1.2rem, 3vw, 1.8rem);
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    background: var(--primary-red);
+    color: var(--text-white);
+    font-family: var(--font-subheading);
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.btn-register:hover {
+    background: var(--dark-red);
+    transform: scale(1.05);
+}
