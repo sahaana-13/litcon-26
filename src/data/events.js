@@ -23,7 +23,7 @@ export const technicalEvents = [
       "Taking photos or recording videos of the sample UI displayed on the screen is strictly prohibited. Any team found doing so will be immediately disqualified.",
       "The judge's decision will be final and binding for all participants."
     ],
-    date: "July 30, 2026",
+    date: "July 25, 2026",
     registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfBI_CgmFXQwUpWuXJKVdlkcftWpCiE8GsVPMppCfV4rtUSvw/viewform?usp=header",
     poster: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=800&auto=format&fit=crop"
   },
@@ -48,7 +48,7 @@ export const technicalEvents = [
       "Treat all props with care. Any damage to game materials or violation of the rules will result in immediate disqualification."
 
     ],
-    date: "July 30, 2026 ",
+    date: "July 25, 2026 ",
     registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdtu2YzqdD3iEqvW9-z2C3ga8Z95H1YNsS7OlCvF9-SEt92_Q/viewform?usp=header",
     poster: escapeRoomPoster,
   }
@@ -68,7 +68,7 @@ export const nonTechnicalEvents = [
       "Any form of *misconduct, inappropriate language, cheating, or unfair practices* will lead to disqualification.",
       "The event follows a *continuous elimination format*, and only qualifying teams will advance to the next round."
     ],
-    date: "July 30, 2026 ",
+    date: "July 25, 2026 ",
     registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdqvpTl0nVWsbSCXSCMS2KbM60k2mKBnllh_LyUHt0XMoaKNQ/viewform?usp=header",
     poster: potpourriPoster,
   },
@@ -85,7 +85,7 @@ export const nonTechnicalEvents = [
       "The use of offensive, vulgar, discriminatory, or plagiarized content is strictly prohibited and may lead to disqualification.",
       "The judges' decision will be final and binding. Participants are expected to maintain discipline and sportsmanlike conduct throughout the event."
     ],
-    date: "July 30, 2026 ",
+    date: "July 25, 2026 ",
     registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfPWo9c3c2qc7E-K7fExphuGHvw2imznYRsBRau71lLrrtfxg/viewform?usp=header",
     poster: wordwarPoster,
   }

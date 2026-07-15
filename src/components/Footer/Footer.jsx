@@ -14,9 +14,9 @@ const Footer = () => {
                     <p>
                         Contact:
                         <br />
-                        Sai Madhan - +91 74187 31723
-                        <br />
                         Ravina JR - +91 72002 80985
+                        <br />
+                        Sai Madhan - +91 74187 31723
                     </p>
 
                     <div className="social-links">
