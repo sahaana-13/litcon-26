@@ -1,6 +1,7 @@
 import escapeRoomPoster from "../assets/posters/escape-room.jpeg";
 import wordwarPoster from "../assets/posters/wordwar.jpeg";
 import potpourriPoster from "../assets/posters/pot-pourri.jpeg";
+import uiuxPoster from "../assets/posters/ui-vision.jpeg";
 
 export const technicalEvents = [
   {
@@ -24,8 +25,8 @@ export const technicalEvents = [
       "The judge's decision will be final and binding for all participants."
     ],
     date: "July 25, 2026",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfBI_CgmFXQwUpWuXJKVdlkcftWpCiE8GsVPMppCfV4rtUSvw/viewform?usp=header",
-    poster: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=800&auto=format&fit=crop"
+    registrationLink: "https://forms.gle/JPtRCaMuaana8r7s5",
+    poster: uiuxPoster,
   },
   {
     id: "escape-room",
@@ -86,7 +87,7 @@ export const nonTechnicalEvents = [
       "The judges' decision will be final and binding. Participants are expected to maintain discipline and sportsmanlike conduct throughout the event."
     ],
     date: "July 25, 2026 ",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfPWo9c3c2qc7E-K7fExphuGHvw2imznYRsBRau71lLrrtfxg/viewform?usp=header",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfPWo9c3c2qc7E-K7fExphuGHvw2imznYRsBRau71lLrrtfxg/viewform?usp=dialog",
     poster: wordwarPoster,
   }
 ];
