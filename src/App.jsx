@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
 import Navbar from './components/Navbar/Navbar';
@@ -21,8 +21,15 @@ const AnimatedRoutes = () => {
             <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<Home />} />
                 <Route path="/events" element={<Events />} />
+
                 <Route path="/events/technical" element={<Technical />} />
+                <Route path="/technical-events" element={<Navigate to="/events/technical" replace />} />
+                <Route path="/events/technical-events" element={<Navigate to="/events/technical" replace />} />
+
                 <Route path="/events/nontechnical" element={<NonTechnical />} />
+                <Route path="/non-technical-events" element={<Navigate to="/events/nontechnical" replace />} />
+                <Route path="/events/non-technical-events" element={<Navigate to="/events/nontechnical" replace />} />
+
                 <Route path="/events/:universe/:id" element={<EventDetails />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
@@ -32,14 +39,14 @@ const AnimatedRoutes = () => {
 
 function App() {
     return (
-        <Router>
+        <>
             <BackgroundEffects />
             <Navbar />
             <div className="main-content">
                 <AnimatedRoutes />
             </div>
             <Footer />
-        </Router>
+        </>
     );
 }
 
